@@ -100,3 +100,5 @@ except FileNotFoundError as e:
     logger.error(f"File Not Found: {str(e)}")
 except Exception as e:
     logger.error(f"Unexpected error: {str(e)}")
+print("✅ File validation process completed.")
+
